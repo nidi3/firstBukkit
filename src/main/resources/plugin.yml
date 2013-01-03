@@ -1,0 +1,40 @@
+name: ${project.name}
+version: ${project.version}
+main: ch.stni.bukkit.first.FirstPlugin
+commands:
+  stop:
+    description: stop the current task
+    usage: /stop
+  up:
+    description: stack upwards
+    usage: /up <number>
+  forth:
+    description: stack forwards
+    usage: /forth <number>
+  clear:
+    description: clear forwards
+    usage: /clear <depth> <heigth> <width> <dy>
+  d:
+    description: debug
+    usage: /d
+  sphere:
+    description: draw a sphere
+    usage: /sphere <radius>
+  cylinder:
+    description: draw a cylinder
+    usage: /cylinder <radius>
+  xor:
+    description: draw a xor gate
+    usage: /xor
+  seg:
+    description: draw a seven segment display
+    usage: /seg
+  display:
+    description: draw a display
+    usage: /display
+  ram:
+    description: draw a ram
+    usage: /ram
+  foto:
+    description: foto
+    usage: /foto
